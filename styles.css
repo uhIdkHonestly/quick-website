@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:root {
+    /* Layout */
+    --layout-mobile: 375px;
+    --layout-desktop: 1440px;
+
+    /* Primary Colors */
+    --primary-cyan: hsl(158, 36%, 37%);
+    --primary-cream: hsl(30, 38%, 92%);
+
+    /* Neutral Colors */
+    --neutral-blue: hsl(212, 21%, 14%);
+    --neutral-gray-blue: hsl(228, 12%, 48%);
+    --neutral-white: hsl(0, 0%, 100%);
+
+    /* Typography */
+    --font-size: 14px;
+
+    /* Fonts */
+
+    --font-family-montserrat: 'Montserrat', sans-serif;
+
+    --font-family-fraunces: 'Fraunces'l
+
+    --font-weight-normal: 500;
+    --font-weight-bold: 700
+}
+
+html,
+body {
+    background: var(--primary-cream);
+    color: black;
+    font-family: var(--font-family-montserrat);
+}
